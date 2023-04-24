@@ -1,0 +1,4 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing-sp23-cs184 -B /Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing-sp23-cs184/cmake-build-debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing-sp23-cs184/cmake-build-debug
