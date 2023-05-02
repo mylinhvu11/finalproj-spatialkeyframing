@@ -5,7 +5,7 @@
 #ifndef FINALPROJ_SPATIALKEYFRAMING_SP23_CS184_RADIALBASISFUNCTION_H
 #define FINALPROJ_SPATIALKEYFRAMING_SP23_CS184_RADIALBASISFUNCTION_H
 
-#include "Ogre.h"
+#include "ogre-13.6.4/OgreMain/include/Ogre.h"
 #include <vector>
 #include <iostream>
 #include "SpatialKeyframing.h"
