@@ -5,9 +5,9 @@
 #ifndef FINALPROJ_SPATIALKEYFRAMING_SP23_CS184_SPATIALKEYFRAMING_H
 #define FINALPROJ_SPATIALKEYFRAMING_SP23_CS184_SPATIALKEYFRAMING_H
 
-#include"Ogre.h"
+#include"ogre-13.6.4/OgreMain/include/Ogre.h"
 #include "RadialBasisFunction.h"
-#include"SKInterpolator.h"
+//#include"SKInterpolator.h"
 #include <vector>
 using namespace Ogre;
 typedef std::vector<v_Vector3>

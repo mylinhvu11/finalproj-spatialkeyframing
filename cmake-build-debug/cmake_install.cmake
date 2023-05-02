@@ -1,4 +1,4 @@
-# Install script for directory: /Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing-sp23-cs184
+# Install script for directory: /Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing-sp23-cs184/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
