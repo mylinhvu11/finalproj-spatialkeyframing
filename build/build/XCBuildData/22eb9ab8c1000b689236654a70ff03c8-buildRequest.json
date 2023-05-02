@@ -1,0 +1,59 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "139216ad01c0cc1c9dd2c72d6c85f509e0c93f8f8d1e4bb31d08ea6df30d6c24"
+    }
+  ],
+  "containerPath" : "/Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/build/finalproj_spatialkeyframing_sp23_cs184.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx12.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/armaangoel/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/armaangoel/Library/Developer/Xcode/DerivedData/finalproj_spatialkeyframing_sp23_cs184-cohwmzfmjwirjwcaekhgtqpocvho/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/armaangoel/Library/Developer/Xcode/DerivedData/finalproj_spatialkeyframing_sp23_cs184-cohwmzfmjwirjwcaekhgtqpocvho/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
