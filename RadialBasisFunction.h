@@ -8,8 +8,8 @@
 #include "Ogre.h"
 #include <vector>
 #include <iostream>
-//#include "SpatialKeyframing.h"
-#include "SKInterpolator.h"
+#include "SpatialKeyframing.h"
+//#include "SKInterpolator.h"
 #include "gauss.h"
 using namespace Ogre;
 //typedef std::vector<Vector3> v_Vector3;

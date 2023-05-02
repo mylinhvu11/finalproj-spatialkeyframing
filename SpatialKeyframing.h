@@ -7,7 +7,7 @@
 
 #include"Ogre.h"
 #include "RadialBasisFunction.h"
-#include"SKInterpolator.h"
+//#include"SKInterpolator.h"
 #include <vector>
 using namespace Ogre;
 typedef std::vector<v_Vector3>

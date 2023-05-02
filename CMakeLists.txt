@@ -3,7 +3,7 @@ project(finalproj_spatialkeyframing_sp23_cs184)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(finalproj_spatialkeyframing_sp23_cs184 main.cpp SpatialKeyframing.h SpatialKeyframing.cpp RadialBasisFunction.h RadialBasisFunction.cpp Gauss.h)
+add_executable(finalproj_spatialkeyframing_sp23_cs184 main.cpp SpatialKeyframing.h SpatialKeyframing.cpp RadialBasisFunction.h RadialBasisFunction.cpp Gauss.h Ogre.h)
 
 set(OGRE_INCLUDE_DIR "../ogre-13.6.4/OgremMain/include")
 set(OGRE_LIBRARY_DIR "../ogre-13.6.4/build/lib")
