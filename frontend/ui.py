@@ -1,108 +1,74 @@
-import sys
+import streamlit as st
 import cv2
-from PyQt5 import QtCore, QtGui, QtWidgets
-from PyQt5.QtWidgets import QFileDialog
+import mediapipe as mp
+from mediapipe.framework.formats import landmark_pb2
+import numpy as np
 
-# Your pose estimation code
-def pose_estimation(image):
-    # Add your pose estimation code here
-    return image
+mp_drawing = mp.solutions.drawing_utils
+mp_pose = mp.solutions.pose
+pose = mp_pose.Pose(static_image_mode=False, model_complexity=1, min_detection_confidence=0.5, min_tracking_confidence=0.5)
 
-class MainWindow(QtWidgets.QWidget):
-    def __init__(self, parent=None):
-        super().__init__(parent)
+def process_frame(img):
+    img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
+    result = pose.process(img_rgb)
 
-        # Create UI elements
-        self.start_button = QtWidgets.QPushButton('Start Camera', self)
-        self.start_button.clicked.connect(self.start_camera)
-        
-        self.capture_button = QtWidgets.QPushButton('Capture', self)
-        self.capture_button.clicked.connect(self.capture_frame)
-        self.capture_button.setEnabled(False)
+    if result.pose_landmarks:
+        mp_drawing.draw_landmarks(img, result.pose_landmarks, mp_pose.POSE_CONNECTIONS)
 
-        self.animate_button = QtWidgets.QPushButton('Animate', self)
-        self.animate_button.clicked.connect(self.animate)
-        self.animate_button.setEnabled(False)
+    return img, result
 
-        self.image_label = QtWidgets.QLabel(self)
-        self.image_label.setFixedSize(640, 480)
+st.title("Real-time Pose Estimation")
 
-        self.image_list = QtWidgets.QListWidget(self)
+if "capture_button_clicked" not in st.session_state:
+    st.session_state.capture_button_clicked = False
 
-        layout = QtWidgets.QGridLayout(self)
-        layout.addWidget(self.start_button, 0, 0)
-        layout.addWidget(self.capture_button, 0, 1)
-        layout.addWidget(self.animate_button, 0, 2)
-        layout.addWidget(self.image_label, 1, 0, 1, 3)
-        layout.addWidget(self.image_list, 1, 3)
+if st.button("Capture"):
+    st.session_state.capture_button_clicked = not st.session_state.capture_button_clicked
 
-        self.timer = QtCore.QTimer(self)
-        self.timer.timeout.connect(self.update_frame)
+if "captured_images" not in st.session_state:
+    st.session_state.captured_images = []
 
-        self.cap = None
+if "captured_poses" not in st.session_state:
+    st.session_state.captured_poses = []
 
-    def start_camera(self):
-        if self.cap is None:
-            self.cap = cv2.VideoCapture(0)
-            self.capture_button.setEnabled(True)
+cap = cv2.VideoCapture(0)
+cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
+cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
+
+# Create columns for webcam view and image previews
+webcam_col, previews_col = st.columns(2)
+video_stream_placeholder = webcam_col.empty()
+previews_placeholder = previews_col.empty()
+alert = st.empty()
+
+while True:
+    ret, frame = cap.read()
+    if not ret:
+        st.warning("Error accessing the camera.")
+        break
+
+    frame = cv2.flip(frame, 1)
+    processed_frame, pose_data = process_frame(frame)
+    processed_frame_rgb = cv2.cvtColor(processed_frame, cv2.COLOR_BGR2RGB)
+
+    video_stream_placeholder.image(processed_frame_rgb, channels="RGB", output_format="JPEG")
+
+    if st.session_state.capture_button_clicked:
+        if pose_data.pose_landmarks is not None:
+            st.session_state.captured_images.append(processed_frame_rgb.copy())
+            st.session_state.captured_poses.append(pose_data)
+            st.session_state.capture_button_clicked = False
+            alert.empty()
         else:
-            self.cap.release()
-            self.cap = None
-            self.capture_button.setEnabled(False)
+            alert.error('This is an error', icon="🚨")
 
-        if self.cap:
-            self.timer.start(1000 / 30)  # 30 fps
-            self.start_button.setText('Stop Camera')
-        else:
-            self.timer.stop()
-            self.start_button.setText('Start Camera')
+    # Display image previews
+    previews_container = previews_placeholder.container()
+    for i, img in enumerate(st.session_state.captured_images):
+        img_copy = img.copy()
+        if st.session_state.captured_poses[i].pose_landmarks:
+            mp_drawing.draw_landmarks(img_copy, st.session_state.captured_poses[i].pose_landmarks, mp_pose.POSE_CONNECTIONS)
+        previews_container.image(img_copy, channels="RGB", output_format="JPEG")
 
-    def update_frame(self):
-        ret, frame = self.cap.read()
-        if not ret:
-            return
 
-        # Apply pose estimation
-        frame = pose_estimation(frame)
-
-        # Display the frame
-        qt_image = self.convert_cv_to_qt(frame)
-        self.image_label.setPixmap(QtGui.QPixmap.fromImage(qt_image))
-
-    def capture_frame(self):
-        ret, frame = self.cap.read()
-        if not ret:
-            return
-
-        # Apply pose estimation
-        frame = pose_estimation(frame)
-
-        # Add the captured frame to the list
-        qt_image = self.convert_cv_to_qt(frame)
-        pixmap = QtGui.QPixmap.fromImage(qt_image)
-        icon = QtGui.QIcon(pixmap)
-        item = QtWidgets.QListWidgetItem(icon, '')
-        self.image_list.addItem(item)
-
-        self.animate_button.setEnabled(True)
-
-    def animate(self):
-        # Add your animation code here
-        pass
-
-    @staticmethod
-    def convert_cv_to_qt(cv_image):
-        rgb_image = cv2.cvtColor(cv_image, cv2.COLOR_BGR2RGB)
-        h, w, ch = rgb_image.shape
-        bytes_per_line = ch * w
-        qt_image = QtGui.QImage(rgb_image.data, w, h, bytes_per_line, QtGui.QImage.Format_RGB888)
-        return qt_image.scaled(640, 480, QtCore.Qt.KeepAspectRatio)
-
-def main():
-    app = QtWidgets.QApplication(sys.argv)
-    window = MainWindow()
-    window.show()
-    sys.exit(app.exec_())
-
-if __name__ == '__main__':
-    main()
+cap.release()
