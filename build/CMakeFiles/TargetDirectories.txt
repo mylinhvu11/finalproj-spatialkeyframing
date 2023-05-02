@@ -1,0 +1,3 @@
+/Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/build/CMakeFiles/finalproj_spatialkeyframing_sp23_cs184.dir
+/Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/build/CMakeFiles/ALL_BUILD.dir
+/Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/build/CMakeFiles/ZERO_CHECK.dir

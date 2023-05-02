@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4FB85AAE868E449CA5D0F65C /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 60C4514967AE4807925739BB /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				2A6B8E03B01C38DCBB285E9C /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				8DDAE5F5E7764801ACF15187 /* PBXTargetDependency */,
+				FB4F8630E1894F07A3738F09 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		64B7CAA8EEB6455E8F8E3AE0 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BEE7A2500A634079AB2FC622 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				5963694D23262CBDCB75707F /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		08FF4A906F544775AD31232F /* /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/Gauss.h */ = {isa = PBXBuildFile; fileRef = 28AB433C0E58467D9DB0BE5E /* /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/Gauss.h */; };
+		108D7087BB2F4D39885EA983 /* /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 64614A05E7824992910391B0 /* /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/CMakeLists.txt */; };
+		45600416DA544AC8BD169CAF /* /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/SpatialKeyframing.h */ = {isa = PBXBuildFile; fileRef = 170C74B5D544490D94C871A3 /* /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/SpatialKeyframing.h */; };
+		4FBD71E62BD04408AC92BC75 /* /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/RadialBasisFunction.h */ = {isa = PBXBuildFile; fileRef = 309F96327327426EA3722A23 /* /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/RadialBasisFunction.h */; };
+		94E9D62F929240BAB73CBA3F /* /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/SpatialKeyframing.cpp */ = {isa = PBXBuildFile; fileRef = F44925F6435842D1B76C7B69 /* /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/SpatialKeyframing.cpp */; };
+		DFF1CC24D4E94E3BAA5479F1 /* /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/main.cpp */ = {isa = PBXBuildFile; fileRef = D64F828E296D48A997057798 /* /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/main.cpp */; };
+		E91406379B2B4AC593AF857D /* /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/RadialBasisFunction.cpp */ = {isa = PBXBuildFile; fileRef = 6D52CE79A82E460D85ED837B /* /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/RadialBasisFunction.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0A13270141F548B7870E2C00 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		6CFB22ABCFBD45BD88BEFEDE /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		BB5993B9E67D4C35ADCFD61F /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		CDFEC1B7F1234848A3F52FC6 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		55866960E2464EDEA2550EE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D43154B77405437286DB9DB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64B7CAA8EEB6455E8F8E3AE0;
+			remoteInfo = ZERO_CHECK;
+		};
+		5FD8E759911240D787B2573F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D43154B77405437286DB9DB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64B7CAA8EEB6455E8F8E3AE0;
+			remoteInfo = ZERO_CHECK;
+		};
+		EBCC4E7C3B974E5FAF5CC2C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D43154B77405437286DB9DB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D08BF46CF8543F59B22E79A;
+			remoteInfo = finalproj_spatialkeyframing_sp23_cs184;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		170C74B5D544490D94C871A3 /* /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/SpatialKeyframing.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = SpatialKeyframing.h; path = SpatialKeyframing.h; sourceTree = SOURCE_ROOT; };
+		26DDAA94BB4F41959A7DD7DB /* finalproj_spatialkeyframing_sp23_cs184 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = finalproj_spatialkeyframing_sp23_cs184; sourceTree = BUILT_PRODUCTS_DIR; };
+		28AB433C0E58467D9DB0BE5E /* /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/Gauss.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = Gauss.h; path = Gauss.h; sourceTree = SOURCE_ROOT; };
+		309F96327327426EA3722A23 /* /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/RadialBasisFunction.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = RadialBasisFunction.h; path = RadialBasisFunction.h; sourceTree = SOURCE_ROOT; };
+		3FAE6662ADD44F788260645F /* /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		64614A05E7824992910391B0 /* /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6D52CE79A82E460D85ED837B /* /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/RadialBasisFunction.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RadialBasisFunction.cpp; path = RadialBasisFunction.cpp; sourceTree = SOURCE_ROOT; };
+		D64F828E296D48A997057798 /* /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		F44925F6435842D1B76C7B69 /* /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/SpatialKeyframing.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SpatialKeyframing.cpp; path = SpatialKeyframing.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8798B67128F434AA1FD7401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01D08CE049BE4878A73F7433 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D52CE79A82E460D85ED837B /* /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/RadialBasisFunction.cpp */,
+				F44925F6435842D1B76C7B69 /* /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/SpatialKeyframing.cpp */,
+				D64F828E296D48A997057798 /* /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		05645831982E4A31AEA3012A /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		22E1733710C2448188434E7F /* finalproj_spatialkeyframing_sp23_cs184 */ = {
+			isa = PBXGroup;
+			children = (
+				01D08CE049BE4878A73F7433 /* Source Files */,
+				8B0228D6E35B4B7DAE39482B /* Header Files */,
+				64614A05E7824992910391B0 /* /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/CMakeLists.txt */,
+			);
+			name = finalproj_spatialkeyframing_sp23_cs184;
+			sourceTree = "<group>";
+		};
+		46D70BE493AB4A76AFCD118E = {
+			isa = PBXGroup;
+			children = (
+				22E1733710C2448188434E7F /* finalproj_spatialkeyframing_sp23_cs184 */,
+				A03ACABACE4E42698D3E4F5D /* ALL_BUILD */,
+				D8A5371358C94B4D8DF78F3C /* Products */,
+				A685B2C9D09642FFB2211196 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8B0228D6E35B4B7DAE39482B /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				28AB433C0E58467D9DB0BE5E /* /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/Gauss.h */,
+				309F96327327426EA3722A23 /* /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/RadialBasisFunction.h */,
+				170C74B5D544490D94C871A3 /* /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/SpatialKeyframing.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		A03ACABACE4E42698D3E4F5D /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				05645831982E4A31AEA3012A /* CMake Rules */,
+				3FAE6662ADD44F788260645F /* /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		A685B2C9D09642FFB2211196 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8A5371358C94B4D8DF78F3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26DDAA94BB4F41959A7DD7DB /* finalproj_spatialkeyframing_sp23_cs184 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D08BF46CF8543F59B22E79A /* finalproj_spatialkeyframing_sp23_cs184 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD42F6702D384FE4B67E6348 /* Build configuration list for PBXNativeTarget "finalproj_spatialkeyframing_sp23_cs184" */;
+			buildPhases = (
+				3EA315521E86427688F31485 /* Sources */,
+				C8798B67128F434AA1FD7401 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FD7385BDD434E5FB8F06388 /* PBXTargetDependency */,
+			);
+			name = finalproj_spatialkeyframing_sp23_cs184;
+			productName = finalproj_spatialkeyframing_sp23_cs184;
+			productReference = 26DDAA94BB4F41959A7DD7DB /* finalproj_spatialkeyframing_sp23_cs184 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D43154B77405437286DB9DB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1340;
+			};
+			buildConfigurationList = C50C4B8C274E4972A2A05829 /* Build configuration list for PBXProject "finalproj_spatialkeyframing_sp23_cs184" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				CDFEC1B7F1234848A3F52FC6 /* Debug */,
+				0A13270141F548B7870E2C00 /* Release */,
+				BB5993B9E67D4C35ADCFD61F /* MinSizeRel */,
+				6CFB22ABCFBD45BD88BEFEDE /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 46D70BE493AB4A76AFCD118E;
+			projectDirPath = "/Users/armaangoel/Desktop/184/finalproj-spatialkeyframing";
+			projectRoot = "";
+			targets = (
+				4FB85AAE868E449CA5D0F65C /* ALL_BUILD */,
+				64B7CAA8EEB6455E8F8E3AE0 /* ZERO_CHECK */,
+				2D08BF46CF8543F59B22E79A /* finalproj_spatialkeyframing_sp23_cs184 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A6B8E03B01C38DCBB285E9C /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/build/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		5963694D23262CBDCB75707F /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/build/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/build
+  make -f /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/build
+  make -f /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/build
+  make -f /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/build
+  make -f /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EA315521E86427688F31485 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E91406379B2B4AC593AF857D /* /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/RadialBasisFunction.cpp */,
+				94E9D62F929240BAB73CBA3F /* /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/SpatialKeyframing.cpp */,
+				DFF1CC24D4E94E3BAA5479F1 /* /Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FD7385BDD434E5FB8F06388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64B7CAA8EEB6455E8F8E3AE0 /* ZERO_CHECK */;
+			targetProxy = 55866960E2464EDEA2550EE1 /* PBXContainerItemProxy */;
+		};
+		8DDAE5F5E7764801ACF15187 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64B7CAA8EEB6455E8F8E3AE0 /* ZERO_CHECK */;
+			targetProxy = 5FD8E759911240D787B2573F /* PBXContainerItemProxy */;
+		};
+		FB4F8630E1894F07A3738F09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D08BF46CF8543F59B22E79A /* finalproj_spatialkeyframing_sp23_cs184 */;
+			targetProxy = EBCC4E7C3B974E5FAF5CC2C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07F95BBA3D0F48D38BD871B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/build/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/../ogre-13.6.4/OgremMain/include","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-lOgreMain","-lOgreOverlay","-lOgreRTShaderSystem","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = finalproj_spatialkeyframing_sp23_cs184;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/build/build/finalproj_spatialkeyframing_sp23_cs184.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		1500655EA93C4950978070D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/build/build";
+			};
+			name = Debug;
+		};
+		29DADE45A4894DFEBE3EBDF7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/build/build";
+			};
+			name = MinSizeRel;
+		};
+		3CBC8E454A3C46DB84B4B300 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3E6BE391A0FF40E497CF5C3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		55410F0DE21744F39489C940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		5723D8320035431EAC05C10B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7242FD46E8DF463CB9969C13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/build/build";
+			};
+			name = Release;
+		};
+		7DCC1D3FD04D42EAB42968D6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		88D68467AE254F33896ABEC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8DCA402DB3E7475FA7034C29 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		E29A5B185DBB4FA7926A5E1B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/build/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/../ogre-13.6.4/OgremMain/include","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-lOgreMain","-lOgreOverlay","-lOgreRTShaderSystem","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = finalproj_spatialkeyframing_sp23_cs184;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/build/build/finalproj_spatialkeyframing_sp23_cs184.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		EC0BF6A8A96642BA8EA3EB26 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		ECD634BA681C4F219346A79B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/build/RelWithDebInfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/../ogre-13.6.4/OgremMain/include","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-lOgreMain","-lOgreOverlay","-lOgreRTShaderSystem","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = finalproj_spatialkeyframing_sp23_cs184;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/build/build/finalproj_spatialkeyframing_sp23_cs184.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		ED1083A3F21E44DA8C6E6973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		FF0F6F9B212B469C9165CFCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/build/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/../ogre-13.6.4/OgremMain/include","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++17' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-lOgreMain","-lOgreOverlay","-lOgreRTShaderSystem","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = finalproj_spatialkeyframing_sp23_cs184;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/build/build/finalproj_spatialkeyframing_sp23_cs184.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60C4514967AE4807925739BB /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88D68467AE254F33896ABEC5 /* Debug */,
+				ED1083A3F21E44DA8C6E6973 /* Release */,
+				EC0BF6A8A96642BA8EA3EB26 /* MinSizeRel */,
+				7DCC1D3FD04D42EAB42968D6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BD42F6702D384FE4B67E6348 /* Build configuration list for PBXNativeTarget "finalproj_spatialkeyframing_sp23_cs184" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF0F6F9B212B469C9165CFCE /* Debug */,
+				07F95BBA3D0F48D38BD871B6 /* Release */,
+				E29A5B185DBB4FA7926A5E1B /* MinSizeRel */,
+				ECD634BA681C4F219346A79B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BEE7A2500A634079AB2FC622 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55410F0DE21744F39489C940 /* Debug */,
+				3E6BE391A0FF40E497CF5C3F /* Release */,
+				5723D8320035431EAC05C10B /* MinSizeRel */,
+				3CBC8E454A3C46DB84B4B300 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C50C4B8C274E4972A2A05829 /* Build configuration list for PBXProject "finalproj_spatialkeyframing_sp23_cs184" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1500655EA93C4950978070D1 /* Debug */,
+				7242FD46E8DF463CB9969C13 /* Release */,
+				29DADE45A4894DFEBE3EBDF7 /* MinSizeRel */,
+				8DCA402DB3E7475FA7034C29 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D43154B77405437286DB9DB6 /* Project object */;
+}
