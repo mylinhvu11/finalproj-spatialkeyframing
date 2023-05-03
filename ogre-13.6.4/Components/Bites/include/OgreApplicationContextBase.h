@@ -31,10 +31,10 @@
 #include "OgreBitesPrerequisites.h"
 #include "OgreBuildSettings.h"
 #include "OgreComponents.h"
-#include "OgreLogManager.h"
-#include "OgrePlugin.h"
-#include "OgreFileSystemLayer.h"
-#include "OgreFrameListener.h"
+#include "../../../OgreMain/include/OgreLogManager.h"
+#include "../../../OgreMain/include/OgrePlugin.h"
+#include "../../../OgreMain/include/OgreFileSystemLayer.h"
+#include "../../../OgreMain/include/OgreFrameListener.h"
 #include "OgreStaticPluginLoader.h"
 
 #ifdef OGRE_BUILD_COMPONENT_RTSHADERSYSTEM

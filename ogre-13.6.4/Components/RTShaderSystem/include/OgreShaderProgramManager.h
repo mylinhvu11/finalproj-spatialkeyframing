@@ -28,9 +28,9 @@ THE SOFTWARE.
 #define _ShaderProgramManager_
 
 #include "OgreShaderPrerequisites.h"
-#include "OgreSingleton.h"
-#include "OgreGpuProgram.h"
-#include "OgreStringVector.h"
+#include "../../../OgreMain/include/OgreSingleton.h"
+#include "../../../OgreMain/include/OgreGpuProgram.h"
+#include "../../../OgreMain/include/OgreStringVector.h"
 
 namespace Ogre {
 namespace RTShader {

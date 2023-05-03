@@ -30,7 +30,7 @@ THE SOFTWARE.
 #include "OgreShaderPrerequisites.h"
 #ifdef RTSHADER_SYSTEM_BUILD_CORE_SHADERS
 #include "OgreShaderSubRenderState.h"
-#include "OgreRenderSystem.h"
+#include "../../../OgreMain/include/OgreRenderSystem.h"
 
 namespace Ogre {
 namespace RTShader {

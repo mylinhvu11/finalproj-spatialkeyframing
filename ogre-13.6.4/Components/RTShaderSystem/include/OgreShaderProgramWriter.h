@@ -28,9 +28,9 @@ THE SOFTWARE.
 #define _ShaderProgramWriter_
 
 #include "OgreShaderPrerequisites.h"
-#include "OgreCommon.h"
-#include "OgreGpuProgramParams.h"
-#include "OgreGpuProgram.h"
+#include "../../../OgreMain/include/OgreCommon.h"
+#include "../../../OgreMain/include/OgreGpuProgramParams.h"
+#include "../../../OgreMain/include/OgreGpuProgram.h"
 #include "OgreShaderParameter.h"
 
 namespace Ogre {

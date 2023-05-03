@@ -130,6 +130,8 @@ THE SOFTWARE.
 #include "OgreVector.h"
 #include "OgreViewport.h"
 #include "OgreComponents.h"
+#include "OgreRoot.h"
+#include "OgreRenderWindow.h"
 // .... more to come
 
 #endif

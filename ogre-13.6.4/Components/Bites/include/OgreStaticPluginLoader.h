@@ -7,7 +7,7 @@
 #define __StaticPluginLoader_H__
 
 #include "OgreBitesPrerequisites.h"
-#include "OgrePrerequisites.h"
+#include "../../../OgreMain/include/OgrePrerequisites.h"
 
 namespace OgreBites
 {
