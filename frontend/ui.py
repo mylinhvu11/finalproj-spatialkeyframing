@@ -3,6 +3,8 @@ import cv2
 import mediapipe as mp
 from mediapipe.framework.formats import landmark_pb2
 import numpy as np
+import dill 
+import time
 
 mp_drawing = mp.solutions.drawing_utils
 mp_pose = mp.solutions.pose
@@ -17,13 +19,23 @@ def process_frame(img):
 
     return img, result
 
-st.title("Real-time Pose Estimation")
+canvas = st.empty()
+capture_ui = canvas.container()
+capture_ui.title("Real-time Pose Estimation")
 
 if "capture_button_clicked" not in st.session_state:
     st.session_state.capture_button_clicked = False
 
-if st.button("Capture"):
+if "animate_button_clicked" not in st.session_state:
+    st.session_state.animate_button_clicked = False
+
+if capture_ui.button("Capture"):
     st.session_state.capture_button_clicked = not st.session_state.capture_button_clicked
+
+if capture_ui.button("Animate"):
+    st.session_state.animate_button_clicked = not st.session_state.animate_button_clicked
+
+
 
 if "captured_images" not in st.session_state:
     st.session_state.captured_images = []
@@ -36,10 +48,10 @@ cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
 
 # Create columns for webcam view and image previews
-webcam_col, previews_col = st.columns(2)
+webcam_col, previews_col = capture_ui.columns(2)
 video_stream_placeholder = webcam_col.empty()
 previews_placeholder = previews_col.empty()
-alert = st.empty()
+alert = capture_ui.empty()
 
 while True:
     ret, frame = cap.read()
@@ -60,7 +72,10 @@ while True:
             st.session_state.capture_button_clicked = False
             alert.empty()
         else:
-            alert.error('This is an error', icon="🚨")
+            alert.error('No pose data for that image, please try again', icon="🚨")
+
+    if st.session_state.animate_button_clicked:
+        break
 
     # Display image previews
     previews_container = previews_placeholder.container()
@@ -72,3 +87,11 @@ while True:
 
 
 cap.release()
+
+dill.dump(st.session_state.captured_poses, open("poses.pkl", "wb"))
+canvas.empty()
+canvas.text("Converting to animation...")
+
+time.sleep(2)
+
+canvas.text("Done, you may now view your animation!")
