@@ -13,6 +13,10 @@ include_directories(${OGRE_INCLUDE_DIRS})
 include_directories(ogre-13.6.4/build/include)
 link_directories(${OGRE_LIBRARY_DIRS})
 
+link_directories(${PROJECT_SOURCE_DIR}/lib/Ogre)
+#target_link_libraries(${PROJECT_NAME} lib/Ogre/Ogre.dll lib/Ogre/libOgre.dll lib/Ogre/OgreJNI.dll)
+include_directories(${PROJECT_SOURCE_DIR}/include/OGRE)
+
 #configure_file("ogre-13.6.4/CMake/Templates/OgreBuildSettings.h.in"
 #        "${CMAKE_CURRENT_BINARY_DIR}/../build/include/OgreBuildSettings.h" @ONLY)
 
@@ -20,7 +24,7 @@ link_directories(${OGRE_LIBRARY_DIRS})
 #include_directories(${OGRE_INCLUDE_DIR})
 
 #link_directories(${OGRE_LIBRARY_DIR})
-add_executable(finalproj-spatialkeyframing main.cpp)
+add_executable(finalproj-spatialkeyframing main.cpp RadialBasisFunction.cpp RadialBasisFunction.h SpatialKeyframing.cpp SpatialKeyframing.h Gauss.h)
 
 target_link_libraries(finalproj-spatialkeyframing ${OGRE_LIBRARIES})
 

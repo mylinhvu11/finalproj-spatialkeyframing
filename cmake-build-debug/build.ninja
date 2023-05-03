@@ -49,7 +49,21 @@ build cmake_object_order_depends_target_finalproj-spatialkeyframing: phony || CM
 build CMakeFiles/finalproj-spatialkeyframing.dir/main.cpp.o: CXX_COMPILER__finalproj-spatialkeyframing_Debug /Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/main.cpp || cmake_object_order_depends_target_finalproj-spatialkeyframing
   DEP_FILE = CMakeFiles/finalproj-spatialkeyframing.dir/main.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++17
-  INCLUDES = -I/Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/ogre-13.6.4/build/include
+  INCLUDES = -I/Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/ogre-13.6.4/build/include -I/Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/include/OGRE
+  OBJECT_DIR = CMakeFiles/finalproj-spatialkeyframing.dir
+  OBJECT_FILE_DIR = CMakeFiles/finalproj-spatialkeyframing.dir
+
+build CMakeFiles/finalproj-spatialkeyframing.dir/RadialBasisFunction.cpp.o: CXX_COMPILER__finalproj-spatialkeyframing_Debug /Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/RadialBasisFunction.cpp || cmake_object_order_depends_target_finalproj-spatialkeyframing
+  DEP_FILE = CMakeFiles/finalproj-spatialkeyframing.dir/RadialBasisFunction.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/ogre-13.6.4/build/include -I/Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/include/OGRE
+  OBJECT_DIR = CMakeFiles/finalproj-spatialkeyframing.dir
+  OBJECT_FILE_DIR = CMakeFiles/finalproj-spatialkeyframing.dir
+
+build CMakeFiles/finalproj-spatialkeyframing.dir/SpatialKeyframing.cpp.o: CXX_COMPILER__finalproj-spatialkeyframing_Debug /Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/SpatialKeyframing.cpp || cmake_object_order_depends_target_finalproj-spatialkeyframing
+  DEP_FILE = CMakeFiles/finalproj-spatialkeyframing.dir/SpatialKeyframing.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/ogre-13.6.4/build/include -I/Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/include/OGRE
   OBJECT_DIR = CMakeFiles/finalproj-spatialkeyframing.dir
   OBJECT_FILE_DIR = CMakeFiles/finalproj-spatialkeyframing.dir
 
@@ -61,8 +75,9 @@ build CMakeFiles/finalproj-spatialkeyframing.dir/main.cpp.o: CXX_COMPILER__final
 #############################################
 # Link the executable finalproj-spatialkeyframing
 
-build finalproj-spatialkeyframing: CXX_EXECUTABLE_LINKER__finalproj-spatialkeyframing_Debug CMakeFiles/finalproj-spatialkeyframing.dir/main.cpp.o
+build finalproj-spatialkeyframing: CXX_EXECUTABLE_LINKER__finalproj-spatialkeyframing_Debug CMakeFiles/finalproj-spatialkeyframing.dir/main.cpp.o CMakeFiles/finalproj-spatialkeyframing.dir/RadialBasisFunction.cpp.o CMakeFiles/finalproj-spatialkeyframing.dir/SpatialKeyframing.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk
+  LINK_PATH = -L/Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/lib/Ogre
   OBJECT_DIR = CMakeFiles/finalproj-spatialkeyframing.dir
   POST_BUILD = :
   PRE_LINK = :

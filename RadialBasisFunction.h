@@ -10,9 +10,10 @@
 #include <iostream>
 #include "SpatialKeyframing.h"
 //#include "SKInterpolator.h"
-#include "gauss.h"
+#include "Gauss.h"
 using namespace Ogre;
-//typedef std::vector<Vector3> v_Vector3;
+typedef std::vector<Vector3> v_Vector3;
+
 class RadialBasisFunction
 {
 public:
