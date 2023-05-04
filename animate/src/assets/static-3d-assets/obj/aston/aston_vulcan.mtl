@@ -1,0 +1,226 @@
+# Exported from 3D Builder
+
+newmtl carbon
+Kd 0.058824 0.054902 0.019608
+
+newmtl Blanc
+Kd 1.000000 1.000000 1.000000
+
+newmtl White
+Kd 0.878431 0.878431 0.878431
+
+newmtl chrome
+Kd 0.925490 0.956863 0.949020
+
+newmtl carbon
+Kd 0.058824 0.054902 0.019608
+
+newmtl White
+Kd 0.878431 0.878431 0.878431
+
+newmtl cache
+Kd 0.039216 0.035294 0.011765
+
+newmtl cache
+Kd 0.039216 0.035294 0.011765
+
+newmtl cache
+Kd 0.039216 0.035294 0.011765
+
+newmtl carbon
+Kd 0.058824 0.054902 0.019608
+
+newmtl White
+Kd 0.878431 0.878431 0.878431
+
+newmtl carbon
+Kd 0.058824 0.054902 0.019608
+
+newmtl White
+Kd 0.878431 0.878431 0.878431
+
+newmtl carbon
+Kd 0.058824 0.054902 0.019608
+
+newmtl White
+Kd 0.878431 0.878431 0.878431
+
+newmtl carrosserie
+Kd 0.368627 0.047059 0.047059
+
+newmtl retro
+Kd 0.956863 0.952941 0.925490
+
+newmtl chrome
+Kd 0.925490 0.956863 0.949020
+
+newmtl cache
+Kd 0.039216 0.035294 0.011765
+
+newmtl White
+Kd 0.878431 0.878431 0.878431
+
+newmtl etriers
+Kd 0.874510 1.000000 0.266667
+
+newmtl feux
+Kd 0.956863 0.466667 0.345098
+
+newmtl feux
+Kd 0.956863 0.466667 0.345098
+
+newmtl feux
+Kd 0.956863 0.466667 0.345098
+
+newmtl feux
+Kd 0.956863 0.466667 0.345098
+
+newmtl feux
+Kd 0.956863 0.466667 0.345098
+
+newmtl feux
+Kd 0.956863 0.466667 0.345098
+
+newmtl feux
+Kd 0.956863 0.466667 0.345098
+
+newmtl feux
+Kd 0.956863 0.466667 0.345098
+
+newmtl feux
+Kd 0.956863 0.466667 0.345098
+
+newmtl feux
+Kd 0.956863 0.466667 0.345098
+
+newmtl feux
+Kd 0.956863 0.466667 0.345098
+
+newmtl feux
+Kd 0.956863 0.466667 0.345098
+
+newmtl feux
+Kd 0.956863 0.466667 0.345098
+
+newmtl feux
+Kd 0.956863 0.466667 0.345098
+
+newmtl feux
+Kd 0.956863 0.466667 0.345098
+
+newmtl feux
+Kd 0.956863 0.466667 0.345098
+
+newmtl feux
+Kd 0.956863 0.466667 0.345098
+
+newmtl feux
+Kd 0.956863 0.466667 0.345098
+
+newmtl feux
+Kd 0.956863 0.466667 0.345098
+
+newmtl feux
+Kd 0.956863 0.466667 0.345098
+
+newmtl feux
+Kd 0.956863 0.466667 0.345098
+
+newmtl jantes
+Kd 0.027451 0.023529 0.023529
+
+newmtl LED
+Kd 0.772549 0.956863 0.870588
+
+newmtl chrome
+Kd 0.925490 0.956863 0.949020
+
+newmtl fond_logo
+Kd 0.074510 0.466667 0.019608
+
+newmtl miroir
+Kd 0.698039 0.956863 0.874510
+
+newmtl carbon
+Kd 0.058824 0.054902 0.019608
+
+newmtl cache
+Kd 0.039216 0.035294 0.011765
+
+newmtl LED
+Kd 0.772549 0.956863 0.870588
+
+newmtl cache
+Kd 0.039216 0.035294 0.011765
+
+newmtl cache
+Kd 0.039216 0.035294 0.011765
+
+newmtl cache
+Kd 0.039216 0.035294 0.011765
+
+newmtl cache
+Kd 0.039216 0.035294 0.011765
+
+newmtl cache
+Kd 0.039216 0.035294 0.011765
+
+newmtl cache
+Kd 0.039216 0.035294 0.011765
+
+newmtl cache
+Kd 0.039216 0.035294 0.011765
+
+newmtl cache
+Kd 0.039216 0.035294 0.011765
+
+newmtl pneu
+Kd 0.078431 0.078431 0.074510
+
+newmtl chrome
+Kd 0.925490 0.956863 0.949020
+
+newmtl ecrou
+Kd 0.807843 1.000000 0.286275
+
+newmtl ecrou
+Kd 0.807843 1.000000 0.286275
+
+newmtl ecrou
+Kd 0.807843 1.000000 0.286275
+
+newmtl ecrou
+Kd 0.807843 1.000000 0.286275
+
+newmtl ecrou
+Kd 0.807843 1.000000 0.286275
+
+newmtl ecrou
+Kd 0.807843 1.000000 0.286275
+
+newmtl ecrou
+Kd 0.807843 1.000000 0.286275
+
+newmtl ecrou
+Kd 0.807843 1.000000 0.286275
+
+newmtl ecrou
+Kd 0.807843 1.000000 0.286275
+
+newmtl ecrou
+Kd 0.807843 1.000000 0.286275
+
+newmtl ecrou
+Kd 0.807843 1.000000 0.286275
+
+newmtl ecrou
+Kd 0.807843 1.000000 0.286275
+
+newmtl ecrou
+Kd 0.807843 1.000000 0.286275
+
+newmtl vitre
+Kd 0.882353 0.909804 0.901961
+
+newmtl vitre
+Kd 0.882353 0.909804 0.901961
