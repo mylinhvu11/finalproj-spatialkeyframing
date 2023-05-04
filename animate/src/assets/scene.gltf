@@ -58282,18 +58282,18 @@
   "buffers": [
     {
       "byteLength": 499744,
-      "uri": "/Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/animate/src/assets/textures/scene.bin"
+      "uri": "scene.bin"
     }
   ],
   "images": [
     {
-      "uri": "/Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/animate/src/assets/textures/chr_classicsonic_body_baseColor.png"
+      "uri": "textures/chr_classicsonic_body_baseColor.png"
     },
     {
-      "uri": "/Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/animate/src/assets/textures/chr_classicsonic_mouth_baseColor.png"
+      "uri": "textures/chr_classicsonic_mouth_baseColor.png"
     },
     {
-      "uri": "/Users/armaangoel/Desktop/184/finalproj-spatialkeyframing/animate/src/assets/textures/chr_classicsonic_eye_baseColor.png"
+      "uri": "textures/chr_classicsonic_eye_baseColor.png"
     }
   ],
   "materials": [
