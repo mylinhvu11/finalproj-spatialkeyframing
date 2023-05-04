@@ -4,6 +4,5 @@ exr
 out
 .vs
 .vscode
-*.json
 Debug
 cmake-build-debug
