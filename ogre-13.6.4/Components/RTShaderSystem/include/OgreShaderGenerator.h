@@ -28,14 +28,14 @@ THE SOFTWARE.
 #define _ShaderGenerator_
 
 #include "OgreShaderPrerequisites.h"
-#include "OgreSingleton.h"
-#include "OgreFileSystemLayer.h"
-#include "OgreRenderObjectListener.h"
-#include "OgreSceneManager.h"
+#include "../../../OgreMain/include/OgreSingleton.h"
+#include "../../../OgreMain/include/OgreFileSystemLayer.h"
+#include "../../../OgreMain/include/OgreRenderObjectListener.h"
+#include "../../../OgreMain/include/OgreSceneManager.h"
 #include "OgreShaderRenderState.h"
-#include "OgreScriptTranslator.h"
+#include "../../../OgreMain/include/OgreScriptTranslator.h"
 #include "OgreShaderScriptTranslator.h"
-#include "OgreMaterialSerializer.h"
+#include "../../../OgreMain/include/OgreMaterialSerializer.h"
 
 
 namespace Ogre {

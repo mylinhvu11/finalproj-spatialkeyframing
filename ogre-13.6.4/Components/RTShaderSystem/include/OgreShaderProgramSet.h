@@ -28,7 +28,7 @@ THE SOFTWARE.
 #define _ShaderProgramSet_
 
 #include "OgreShaderPrerequisites.h"
-#include "OgreGpuProgram.h"
+#include "../../../OgreMain/include/OgreGpuProgram.h"
 
 namespace Ogre {
 namespace RTShader {

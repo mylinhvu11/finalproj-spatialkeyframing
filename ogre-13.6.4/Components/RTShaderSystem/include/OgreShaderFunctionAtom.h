@@ -28,8 +28,8 @@ THE SOFTWARE.
 #define _ShaderFunctionAtom_
 
 #include "OgreShaderPrerequisites.h"
-#include "OgreStringVector.h"
-#include "OgreGpuProgramParams.h"
+#include "../../../OgreMain/include/OgreStringVector.h"
+#include "../../../OgreMain/include/OgreGpuProgramParams.h"
 #include "OgreShaderParameter.h"
 
 namespace Ogre {

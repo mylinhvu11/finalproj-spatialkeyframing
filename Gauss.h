@@ -15,7 +15,7 @@ typedef vector<v_double> v2_double;
 const int MAXN = 100;
 inline void Gauss(v2_double A, v_double& b, int n) {
 //inline void Gauss(vector< vector<double> > A,
-    vector<double>& b, int n) {
+    vector<b, n) {
         for (int i = 0; i < n; ++i) {
             int best = i;
             for (int j = i+1; j < n; ++j)

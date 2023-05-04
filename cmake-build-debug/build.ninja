@@ -8,7 +8,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: finalproj_spatialkeyframing_sp23_cs184
+# Project: finalproj-spatialkeyframing
 # Configurations: Debug
 # =============================================================================
 
@@ -38,51 +38,51 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target finalproj_spatialkeyframing_sp23_cs184
+# Object build statements for EXECUTABLE target finalproj-spatialkeyframing
 
 
 #############################################
-# Order-only phony target for finalproj_spatialkeyframing_sp23_cs184
+# Order-only phony target for finalproj-spatialkeyframing
 
-build cmake_object_order_depends_target_finalproj_spatialkeyframing_sp23_cs184: phony || CMakeFiles/finalproj_spatialkeyframing_sp23_cs184.dir
+build cmake_object_order_depends_target_finalproj-spatialkeyframing: phony || CMakeFiles/finalproj-spatialkeyframing.dir
 
-build CMakeFiles/finalproj_spatialkeyframing_sp23_cs184.dir/main.cpp.o: CXX_COMPILER__finalproj_spatialkeyframing_sp23_cs184_Debug /Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/main.cpp || cmake_object_order_depends_target_finalproj_spatialkeyframing_sp23_cs184
-  DEP_FILE = CMakeFiles/finalproj_spatialkeyframing_sp23_cs184.dir/main.cpp.o.d
+build CMakeFiles/finalproj-spatialkeyframing.dir/main.cpp.o: CXX_COMPILER__finalproj-spatialkeyframing_Debug /Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/main.cpp || cmake_object_order_depends_target_finalproj-spatialkeyframing
+  DEP_FILE = CMakeFiles/finalproj-spatialkeyframing.dir/main.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++17
-  INCLUDES = -I/Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/cmake-build-debug/include -I/Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/../ogre-13.6.4/OgreMain/build/include
-  OBJECT_DIR = CMakeFiles/finalproj_spatialkeyframing_sp23_cs184.dir
-  OBJECT_FILE_DIR = CMakeFiles/finalproj_spatialkeyframing_sp23_cs184.dir
+  INCLUDES = -I/Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/ogre-13.6.4/build/include -I/Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/include/OGRE
+  OBJECT_DIR = CMakeFiles/finalproj-spatialkeyframing.dir
+  OBJECT_FILE_DIR = CMakeFiles/finalproj-spatialkeyframing.dir
 
-build CMakeFiles/finalproj_spatialkeyframing_sp23_cs184.dir/SpatialKeyframing.cpp.o: CXX_COMPILER__finalproj_spatialkeyframing_sp23_cs184_Debug /Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/SpatialKeyframing.cpp || cmake_object_order_depends_target_finalproj_spatialkeyframing_sp23_cs184
-  DEP_FILE = CMakeFiles/finalproj_spatialkeyframing_sp23_cs184.dir/SpatialKeyframing.cpp.o.d
+build CMakeFiles/finalproj-spatialkeyframing.dir/RadialBasisFunction.cpp.o: CXX_COMPILER__finalproj-spatialkeyframing_Debug /Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/RadialBasisFunction.cpp || cmake_object_order_depends_target_finalproj-spatialkeyframing
+  DEP_FILE = CMakeFiles/finalproj-spatialkeyframing.dir/RadialBasisFunction.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++17
-  INCLUDES = -I/Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/cmake-build-debug/include -I/Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/../ogre-13.6.4/OgreMain/build/include
-  OBJECT_DIR = CMakeFiles/finalproj_spatialkeyframing_sp23_cs184.dir
-  OBJECT_FILE_DIR = CMakeFiles/finalproj_spatialkeyframing_sp23_cs184.dir
+  INCLUDES = -I/Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/ogre-13.6.4/build/include -I/Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/include/OGRE
+  OBJECT_DIR = CMakeFiles/finalproj-spatialkeyframing.dir
+  OBJECT_FILE_DIR = CMakeFiles/finalproj-spatialkeyframing.dir
 
-build CMakeFiles/finalproj_spatialkeyframing_sp23_cs184.dir/RadialBasisFunction.cpp.o: CXX_COMPILER__finalproj_spatialkeyframing_sp23_cs184_Debug /Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/RadialBasisFunction.cpp || cmake_object_order_depends_target_finalproj_spatialkeyframing_sp23_cs184
-  DEP_FILE = CMakeFiles/finalproj_spatialkeyframing_sp23_cs184.dir/RadialBasisFunction.cpp.o.d
+build CMakeFiles/finalproj-spatialkeyframing.dir/SpatialKeyframing.cpp.o: CXX_COMPILER__finalproj-spatialkeyframing_Debug /Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/SpatialKeyframing.cpp || cmake_object_order_depends_target_finalproj-spatialkeyframing
+  DEP_FILE = CMakeFiles/finalproj-spatialkeyframing.dir/SpatialKeyframing.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++17
-  INCLUDES = -I/Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/cmake-build-debug/include -I/Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/../ogre-13.6.4/OgreMain/build/include
-  OBJECT_DIR = CMakeFiles/finalproj_spatialkeyframing_sp23_cs184.dir
-  OBJECT_FILE_DIR = CMakeFiles/finalproj_spatialkeyframing_sp23_cs184.dir
+  INCLUDES = -I/Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/ogre-13.6.4/build/include -I/Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/include/OGRE
+  OBJECT_DIR = CMakeFiles/finalproj-spatialkeyframing.dir
+  OBJECT_FILE_DIR = CMakeFiles/finalproj-spatialkeyframing.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target finalproj_spatialkeyframing_sp23_cs184
+# Link build statements for EXECUTABLE target finalproj-spatialkeyframing
 
 
 #############################################
-# Link the executable finalproj_spatialkeyframing_sp23_cs184
+# Link the executable finalproj-spatialkeyframing
 
-build finalproj_spatialkeyframing_sp23_cs184: CXX_EXECUTABLE_LINKER__finalproj_spatialkeyframing_sp23_cs184_Debug CMakeFiles/finalproj_spatialkeyframing_sp23_cs184.dir/main.cpp.o CMakeFiles/finalproj_spatialkeyframing_sp23_cs184.dir/SpatialKeyframing.cpp.o CMakeFiles/finalproj_spatialkeyframing_sp23_cs184.dir/RadialBasisFunction.cpp.o
+build finalproj-spatialkeyframing: CXX_EXECUTABLE_LINKER__finalproj-spatialkeyframing_Debug CMakeFiles/finalproj-spatialkeyframing.dir/main.cpp.o CMakeFiles/finalproj-spatialkeyframing.dir/RadialBasisFunction.cpp.o CMakeFiles/finalproj-spatialkeyframing.dir/SpatialKeyframing.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk
-  LINK_LIBRARIES = -lOgreMain  -lOgreOverlay  -lOgreRTShaderSystem
-  OBJECT_DIR = CMakeFiles/finalproj_spatialkeyframing_sp23_cs184.dir
+  LINK_PATH = -L/Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/lib/Ogre
+  OBJECT_DIR = CMakeFiles/finalproj-spatialkeyframing.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = finalproj_spatialkeyframing_sp23_cs184
-  TARGET_PDB = finalproj_spatialkeyframing_sp23_cs184.dbg
+  TARGET_FILE = finalproj-spatialkeyframing
+  TARGET_PDB = finalproj-spatialkeyframing.dbg
 
 
 #############################################
@@ -118,7 +118,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/cmake-build-debug
 
-build all: phony finalproj_spatialkeyframing_sp23_cs184
+build all: phony finalproj-spatialkeyframing
 
 # =============================================================================
 # Built-in targets
@@ -127,14 +127,14 @@ build all: phony finalproj_spatialkeyframing_sp23_cs184
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/CMakeLists.txt /Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/ogre-13.6.4/CMake/Templates/OgreBuildSettings.h.in CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/CMakeLists.txt /Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/ogre-13.6.4/CMake/Templates/OgreBuildSettings.h.in CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
 
 
 #############################################

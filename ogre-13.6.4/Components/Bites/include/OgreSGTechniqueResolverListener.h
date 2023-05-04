@@ -29,8 +29,8 @@
 #pragma once
 
 #include "OgreBitesPrerequisites.h"
-#include "OgreRTShaderSystem.h"
-#include "OgreMaterialManager.h"
+#include "../../RTShaderSystem/include/OgreRTShaderSystem.h"
+#include "../../../OgreMain/include/OgreMaterialManager.h"
 
 namespace OgreBites {
 /** \addtogroup Optional

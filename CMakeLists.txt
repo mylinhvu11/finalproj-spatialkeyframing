@@ -1,19 +1,30 @@
 cmake_minimum_required(VERSION 3.24)
-project(finalproj_spatialkeyframing_sp23_cs184)
+project(finalproj-spatialkeyframing)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(finalproj_spatialkeyframing_sp23_cs184 main.cpp SpatialKeyframing.h SpatialKeyframing.cpp RadialBasisFunction.h RadialBasisFunction.cpp Gauss.h Ogre.h ogre-13.6.4/OgreMain/src/OgreStableHeaders.h ogre-13.6.4/build/include/OgreBuildSettings.h)
+# Set the architecture to build for
+set(CMAKE_OSX_ARCHITECTURES "arm64")
 
-set(OGRE_INCLUDE_DIR "../ogre-13.6.4/OgreMain/build/include")
-set(OGRE_LIBRARY_DIR "../ogre-13.6.4/build/")
+#set(OGRE_INCLUDE_DIR "../ogre-13.6.4/build/include")
+#set(OGRE_LIBRARY_DIR "../ogre-13.6.4/build/")
 
-configure_file("ogre-13.6.4/CMake/Templates/OgreBuildSettings.h.in"
-        "${CMAKE_CURRENT_BINARY_DIR}/../build/include/OgreBuildSettings.h" @ONLY)
+include_directories(${OGRE_INCLUDE_DIRS})
+include_directories(ogre-13.6.4/build/include)
+link_directories(${OGRE_LIBRARY_DIRS})
 
-include_directories(${CMAKE_CURRENT_BINARY_DIR}/include)
-include_directories(${OGRE_INCLUDE_DIR})
+link_directories(${PROJECT_SOURCE_DIR}/lib/Ogre)
+#target_link_libraries(${PROJECT_NAME} lib/Ogre/Ogre.dll lib/Ogre/libOgre.dll lib/Ogre/OgreJNI.dll)
+include_directories(${PROJECT_SOURCE_DIR}/include/OGRE)
 
-link_directories(${OGRE_LIBRARY_DIR})
+#configure_file("ogre-13.6.4/CMake/Templates/OgreBuildSettings.h.in"
+#        "${CMAKE_CURRENT_BINARY_DIR}/../build/include/OgreBuildSettings.h" @ONLY)
 
-target_link_libraries(finalproj_spatialkeyframing_sp23_cs184 OgreMain OgreOverlay OgreRTShaderSystem)
+#include_directories(${CMAKE_CURRENT_BINARY_DIR}/include)
+#include_directories(${OGRE_INCLUDE_DIR})
+
+#link_directories(${OGRE_LIBRARY_DIR})
+add_executable(finalproj-spatialkeyframing main.cpp RadialBasisFunction.cpp RadialBasisFunction.h SpatialKeyframing.cpp SpatialKeyframing.h Gauss.h)
+
+target_link_libraries(finalproj-spatialkeyframing ${OGRE_LIBRARIES})
+

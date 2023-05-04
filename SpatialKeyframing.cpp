@@ -3,6 +3,13 @@
 //
 
 #include "SpatialKeyframing.h"
+#include "ogre-13.6.4/OgreMain/include/Ogre.h"
+#include <vector>
+
+using namespace Ogre;
+
+typedef std::vector<Vector3> v_Vector3;
+
 FunctionSet::FunctionSet(int i) {
     functionXaxis.resize(i);
     functionYaxis.resize(i);

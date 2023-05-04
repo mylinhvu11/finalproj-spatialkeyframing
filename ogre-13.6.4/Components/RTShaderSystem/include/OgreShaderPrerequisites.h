@@ -27,8 +27,8 @@ THE SOFTWARE.
 #ifndef __ShaderPrerequisites_H__
 #define __ShaderPrerequisites_H__
 
-#include "OgrePrerequisites.h"
-#include "OgreCommon.h"
+#include "../../../OgreMain/include/OgrePrerequisites.h"
+#include "../../../OgreMain/include/OgreCommon.h"
 
 namespace Ogre 
 {

@@ -146,7 +146,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=finalproj_spatialkeyframing_sp23_cs184
+CMAKE_PROJECT_NAME:STATIC=finalproj-spatialkeyframing
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib
@@ -210,6 +210,39 @@ CMAKE_STRIP:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/Xcode
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//The directory containing a CMake configuration file for OGRE13.6.4.
+OGRE13.6.4_DIR:PATH=OGRE13.6.4_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for OGRE.
+OGRE_DIR:PATH=OGRE_DIR-NOTFOUND
+
+//Arguments to supply to pkg-config
+PKG_CONFIG_ARGN:STRING=
+
+//pkg-config executable
+PKG_CONFIG_EXECUTABLE:FILEPATH=PKG_CONFIG_EXECUTABLE-NOTFOUND
+
+//The directory containing a CMake configuration file for build/cmakeOGRE.
+build/cmakeOGRE_DIR:PATH=build/cmakeOGRE_DIR-NOTFOUND
+
+//Value Computed by CMake
+finalproj-_BINARY_DIR:STATIC=/Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/cmake-build-debug
+
+//Value Computed by CMake
+finalproj-_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+finalproj-_SOURCE_DIR:STATIC=/Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing
+
+//Value Computed by CMake
+finalproj-spatialkeyframing_BINARY_DIR:STATIC=/Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/cmake-build-debug
+
+//Value Computed by CMake
+finalproj-spatialkeyframing_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+finalproj-spatialkeyframing_SOURCE_DIR:STATIC=/Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing
+
 //Value Computed by CMake
 finalproj_spatialkeyframing_sp23_cs184_BINARY_DIR:STATIC=/Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing/cmake-build-debug
 
@@ -218,6 +251,12 @@ finalproj_spatialkeyframing_sp23_cs184_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 finalproj_spatialkeyframing_sp23_cs184_SOURCE_DIR:STATIC=/Users/mylinhvu/Desktop/cs184/finalproj-spatialkeyframing
+
+//The directory containing a CMake configuration file for ogre-13.6.4/build/cmake/OGRE.
+ogre-13.6.4/build/cmake/OGRE_DIR:PATH=ogre-13.6.4/build/cmake/OGRE_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for ogre-13.6.4/build/cmakeOGRE.
+ogre-13.6.4/build/cmakeOGRE_DIR:PATH=ogre-13.6.4/build/cmakeOGRE_DIR-NOTFOUND
 
 
 ########################
@@ -355,4 +394,8 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PKG_CONFIG_ARGN
+PKG_CONFIG_ARGN-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
+PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
 
